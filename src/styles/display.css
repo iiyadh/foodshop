@@ -1,0 +1,23 @@
+.display{
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    height: 800px;
+    gap:5px;
+    width: 830px;
+    margin:15px auto;
+    background-color: gray;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.display .product{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    align-items: center;
+}
+.display .product:hover{
+    background-color: aliceblue;
+    transform: scale(1.1);
+}

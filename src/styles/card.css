@@ -1,0 +1,52 @@
+.card{
+    height: 90vh;
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 40%;
+    background-color: aquamarine;
+    gap: 20px;
+}
+.card .product{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+.card .product input{
+    width: 50px;
+    height: 20px;
+}
+.card .pros{
+    height:500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    align-self: center;
+}
+.card .cardhead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.card .total{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.card #btn{
+    width: 60%;
+    height:40px;
+    align-self: center;
+    outline :none;
+    border: none;
+    box-shadow: 3px 3px 5px black,
+                inset 3px 3px 3px white;
+    border-radius: 24px 0 24px 0;
+}
+.card #btn:active{
+    transform: scale(0.9);
+    box-shadow: none;
+}
